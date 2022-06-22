@@ -10,7 +10,7 @@ File Systems on Nightingale
 ---------------------------
 Nightingale has a parallel files system, where both your user's home directory and your project's shared space live.  
 
-Where Your Data Lives
+Where *Your* Data Lives
 ---------------------
 Nightingale is architected specifically to keep data protected both from people outside Nightingale and other Nightingale users.  Unlike other systems, do not look at user data because we assume that any of your data could be HIPAA-covered information.  
 
