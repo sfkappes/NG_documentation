@@ -1,8 +1,7 @@
-Welcome to Lumache's documentation!
+NCSA Nightingale Documentation
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
+**Lumache** 
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
@@ -11,7 +10,7 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   This page is currently (June 22, 2022) a test page.  It may be come the real user-facing documentation for Nightingale, if that happens, this notice will be removed.
 
 Contents
 --------
