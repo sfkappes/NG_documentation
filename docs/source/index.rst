@@ -13,6 +13,7 @@ The Nightingale Cluster is a high-performance environment within the Advanced Co
 
 .. image:: ACHE_cage_2.jpg
    :scale: 20 %
+   :alt: Seven racks of computers in a server room
 
 Please also see the `Nightingale Project Profile <https://www.ncsa.illinois.edu/research/project-highlights/nightingale/>`_ on the NCSA web site.
 
