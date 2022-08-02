@@ -9,7 +9,7 @@
 NCSA Nightingale Documentation For Outside **Contributors**
 =========================================================
 
-The Nightingale Cluster is a high-performance environment within the Advanced Computational Health Enclave (ACHE). The ACHE is a unique environment with restricted physical and electronic access. All electronic Protected Health Information (ePHI) processed or stored at NCSA is done within this environment. The Nightingale Cluster seeks to expand the ACHE to provide a multi-tenant campus cluster-like environment to meet the needs of researchers who wish to process and store ePHI.
+The **Nightingale Cluster** is a high-performance environment within the Advanced Computational Health Enclave (ACHE). The ACHE is a unique environment with restricted physical and electronic access. All electronic Protected Health Information (ePHI) processed or stored at NCSA is done within this environment. The Nightingale Cluster seeks to expand the ACHE to provide a multi-tenant campus cluster-like environment to meet the needs of researchers who wish to process and store ePHI.
 
 .. image:: ACHE_cage_2.jpg
    :scale: 20 %
