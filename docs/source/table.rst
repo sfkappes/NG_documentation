@@ -6,6 +6,6 @@ Here's a **grid table**.
 +-----------------------------+----------------+
 | this is a grid table header | another header |
 +-----------------------------+----------------+
-| this is a body cell                          |
+| this is a body cell         |                |
 +-----------------------------+----------------+
 
