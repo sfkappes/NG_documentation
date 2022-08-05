@@ -3,6 +3,7 @@ Sample demo RST table
 ============================
 
 Here's a **grid table**.  
+
 +-----------------------------+----------------+
 | this is a grid table header | another header |
 +=============================+================+
