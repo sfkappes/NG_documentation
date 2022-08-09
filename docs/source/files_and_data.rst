@@ -1,3 +1,7 @@
+.. warning::
+
+   This page is currently (June 22, 2022) a test page.  It may be come the real user-facing documentation for Nightingale, if that happens, this notice will be removed.
+
 =============================
 Files and Data on Nightingale
 =============================
@@ -12,7 +16,7 @@ Nightingale has a parallel files system, where both your user's home directory a
 
 Where *Your* Data Lives
 ---------------------
-Nightingale is architected specifically to keep data protected both from people outside Nightingale and other Nightingale users.  Unlike other systems, do not look at user data because we assume that any of your data could be HIPAA-covered information.  
+Nightingale is architected specifically to keep data protected both from people outside Nightingale and other Nightingale users.  Unlike other systems, we do not look at user data because we assume that any of your data could be HIPAA-covered information.  
 
 Because of this compartmentalization, typically, you will already know where your data is located on Nightingale, because where that data lives will be part of the conversation between our staff and getting your team onto the system.  So if you're a Nightingale user and you don't know where your data lives, you should talk to your PI ("Principal Investigator") (that is, the person on your end, often your supervisor, who requested your user account).  If you are the project PI, or your PI doesn't know where the data is, then one of you should send in a ticket and ask, and we'll help you.  
 
