@@ -2,9 +2,9 @@
 
    This page will be the new location for the NCSA Nightingale documentation, as opposed to the Confluence wiki.  This page is NOT official until this notice disappears.  Until that time, we're testing the migration and deployment.  As of August 9, 2022, this is NOT YET the official documentation page.  Anything here may be out of date or preliminary, or just a meaningless test page.  
 
-.. note::
+.. warning::
 
-   Short-term status notes will be posted here.
+   There will be a preventative maintenance period all day on August 17 on Nightingale.  All systems will be effected and users will not be able to log in.  The system should be restored to functionality by the evening.  If the system will not be up then, this note will be revised.
 
 NCSA Nightingale Documentation
 =========================================================
