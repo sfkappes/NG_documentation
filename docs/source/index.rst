@@ -1,6 +1,6 @@
-.. warning::
+.. important::
 
-   This page is currently (June 22, 2022) a test page.  It may be come the real user-facing documentation for Nightingale, if that happens, this notice will be removed.
+   This page will be the new location for the NCSA Nightingale documentation, as opposed to the Confluence wiki.  This page is NOT official until this notice disappears.  Until that time, we're testing the migration and deployment.  As of August 9, 2022, this is NOT YET the official documentation page.  Anything here may be out of date or preliminary, or just a meaningless test page.  
 
 .. note::
 
