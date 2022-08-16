@@ -22,7 +22,7 @@ Contents
 
 .. toctree::
 
-   accounts
+   setting_up_account
    architecture
    accessing_the_system
    citizenship
