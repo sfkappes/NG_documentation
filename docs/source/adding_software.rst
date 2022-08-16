@@ -44,7 +44,9 @@ above auto-install tools require to work. To run those, you'll generally
 need to run this command on your command line before running any of
 these tools:
 
-export https_proxy=\ https://ache-proxy.ncsa.illinois.edu:3128
+::
+
+    export https_proxy=\ https://ache-proxy.ncsa.illinois.edu:3128
 
 This sets the auto-install tool to access the outside internet through a
 network proxy, which allows connections to limited outside network
@@ -200,49 +202,39 @@ Installing other packages
 
 Activate your Conda environment:
 
-+---------------------------------------+
-| ``source``\ ``activate my.conda_env`` |
-+---------------------------------------+
+::
 
-| 
+    source activate my.conda_env
 
 Search for the python package of interest and display associated
 information.
 
-+---------------------------------+
-| ``conda search <pacakge_name>`` |
-+---------------------------------+
+::
 
-| 
+    conda search 
 
 Install a selected python package:
 
-+--------------------------------------------+
-| ``conda``\ ``install``\ ``<package_name>`` |
-+--------------------------------------------+
+::
+
+    conda install <package_name>
 
 or
 
-+---------------------------------------------------------------------+
-| ``conda``\ ``install``\ ``<pacakge_name> --channel <channel_name>`` |
-+---------------------------------------------------------------------+
+::
 
-| 
+    conda install <pacakge_name> --channel <channel_name>
+    
 
 View what python packages are installed:
 
-+----------------+
-| ``conda list`` |
-+----------------+
+::
 
-| 
+    conda list
 
-| 
+**R**
 
-R
-~
-
-Ris a\ `programming
+R is a\ `programming
 language <https://en.wikipedia.org/wiki/Programming_language>`__\ for\ `statistical
 computing <https://en.wikipedia.org/wiki/Statistical_computing>`__\ and
 graphics supported by the R Core Team and the R Foundation for
@@ -251,33 +243,26 @@ Nightingale.
 
 To enable (make use of) R on Nightingale, just load the modulefile.
 
-+-------------------------------------+
-| ``module load R``\ ``/4``\ ``.2.0`` |
-+-------------------------------------+
+::
 
-| 
+    module load R/4.2.0`
 
 To start R, simply type R in the terminal.
 
-+-------+
-| ``R`` |
-+-------+
+::
+    R
 
-| 
-
-The program will open\ *within*\ the terminal window. Type 'demo()' for
+The program will open *within* the terminal window. Type 'demo()' for
 some demos, 'help()' for on-line help, 'q()' to quit R. If you use
 functions like'plot()' in R, your graph will open in a separate window.
 This is assuming you use MobaXterm or another X server.
 
-| 
-
 You can also run your R scripts in the background by using the Rscript
 command.
 
-+-------------------------+
-| ``Rscript my_script.R`` |
-+-------------------------+
+::
+
+    Rscript my_script.R
 
 You can use a text editor (Ex. nano, vi, etc ...) to create the script
 files on the cluster or you can use R Studio on your PC/Mac to create
@@ -292,75 +277,57 @@ Thelibrary()command can be used to view all user and system installed R
 packages (user installed packages are only visible to R when
 the${R_LIBS}environment variable is set).
 
-+---------------------------------+
-| ``Rscript -e``\ ``"library()"`` |
-+---------------------------------+
-
 ::
+
+    Rscript -e "library()"`
 
 Installing Additional R Packages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-| 
-| Additional user specific R packages not listed in Nightingale's system
-  installation of R can be installed by any Nightingale
-| user from the “Comprehensive R Archive Network” (CRAN). User
+Additional user specific R packages not listed in Nightingale's system
+installation of R can be installed by any Nightingale
+user from the “Comprehensive R Archive Network” (CRAN). User
   Installation Steps for R packages below:
-
-| 
 
 Set the HTTPS_PROXY environment variable (if you have not already done
 so).
 
-+----------------------------------------------------------------------+
-| ``export``\                                                          |
-| ``HTTPS_PROXY=http:``\ ``//ache-proxy``\ ``.ncsa.illinois.edu:3128`` |
-+----------------------------------------------------------------------+
+::
 
-| 
-
-| 
+    export HTTPS_PROXY=http://ache-proxy.ncsa.illinois.edu:3128
 
 Create a directory 'my.Rlibs' for your R packages. If you wish, you can
 use a different name.
 
-+---------------------------------------------+
-| ``mkdir``\ ``${HOME}``\ ``/my``\ ``.Rlibs`` |
-+---------------------------------------------+
+::
 
-| 
+    mkdir ${HOME}/my.Rlibs
 
 Load the R modulefile (if you have not already done so).
 
-+-------------------------------------+
-| ``module load R``\ ``/4``\ ``.2.0`` |
-+-------------------------------------+
+::
 
-| 
+    module load R/4`.2.0`` 
 
 Set the R library environment variable (R_LIBS) to include your R
 package directory
 
-+-----------------------------------------------------+
-| ``export``\ ``R_LIBS=${HOME}``\ ``/my``\ ``.Rlibs`` |
-+-----------------------------------------------------+
+::
 
-| 
+    export R_LIBS=${HOME}/my.Rlibs
 
 Use the "install.packages" function to install your R package.
 
-+----------------------------------------------------------------------+
-| ``Rscript -e``\ ``"install.pa                                        |
-| ckages('RCurl', '${HOME}/my.Rlibs', 'https://cran.r-project.org')"`` |
-+----------------------------------------------------------------------+
+::
+
+    Rscript -e "install.packages('RCurl', '${HOME}/my.Rlibs', 'https://cran.r-project.org')"
 
 **Note:**\ "RCurl" is just the name of the R package used for the
 example above. Users, should use the specific R package
 (https://cran.r-project.org/web/packages/available_packages_by_name.html)
 that they are interested in.
 
-| 
-| If the environment variable\ **R_LIBS**\ is not set and a directory is
+(If the environment variable\ **R_LIBS**\ is not set and a directory is
   not specified with the "install.packages" function, then R packages
   will be installed under "${HOME}/R/x86_64-unknown-linux-gnu-library"
-  by default. (This R subdirectory structure is created automatically.)
+  by default.  This R subdirectory structure is created automatically.)
