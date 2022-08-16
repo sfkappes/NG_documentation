@@ -32,27 +32,17 @@ using the cluster.
       at\ mjaromin@illinois.edu. The request should include your NCSA
       username, your University UIN, and a brief justification why you
       need the access.
-   -  If you completed the University of Illinois’ HIPAA privacy and
-      security training less than a year ago, please attach your
+   -  If you completed some type of Regulated Sensitive Data training less than a year ago (HIPPA or otherwise), please attach your
       training certificate.
 
 #. `Getting Added to NCSA Covered
    Entity <https://wiki.ncsa.illinois.edu/display/ACHE/HIPAA+Tools%3A+Adding+a+HIPAA+Covered+Entity>`__
 
-   -  The email request in Step 2 starts the process of adding you to
-      NCSA's "HIPAA Covered Entity". The University of Illinois’ HIPAA
-      Privacy and Security Directive requires that all members of a
-      covered component complete the HIPAA training on an annual basis
-      *and perform endpoint disk encryption of portable devices (like
-      laptops) used to access, process or store ePHI.*
+   -  You are required to receive training on handling the type of Regulated Sensitive Data that you will be working with on Nighingale every year, whether that be EPHI or CUI or other.  
 
-      #. HIPAA training
+      #. Regulated Sensitive Data training
 
-         #. University of Illinois currently uses
-            the\ `KnowBe4 <https://training.knowbe4.com/auth/saml/ef047fafa8535>`__\ platform
-            to deploy the HIPAA training. You will be added to the
-            training and will receive an email with instructions on
-            access the platform.
+         #. After being added to the system but before you can use it, you will need to complete training that corresponds to the *type* of regulated sensitive data you will be accessing.  You will be emailed instructions how to take this training.  You will generally need to save a completion certificate at the end of the training course.  
          #. After completing the training, you need to upload the
             training certificate to\ `HIPAA
             Tools <https://internal.ncsa.illinois.edu/mis/hipaa/training/index.php?page=main&>`__\ in
@@ -65,10 +55,6 @@ using the cluster.
 
       #. Full disk encryption
 
-         #. `Steps to encrypt laptops utilizing campus purchased Dell
-            Data Protection (DDP)
-            software <https://wiki.ncsa.illinois.edu/display/SecOps/Full+Disk+Encryption+for+HIPAA+Covered+Entity>`__
-         #. It is expected that the campus software will change in the
-            future.
+         #. You will be contacted by NCSA personnel to get your computer set up with full-disk encryption.  That person will guide you through the steps to secure your hard drive.  
          #. If you plan to use an on-site work desktop, you can request
             an exemption from the encryption requirement.
