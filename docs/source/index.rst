@@ -1,6 +1,6 @@
 .. important::
 
-    This page will become the official user-facing documentation for the NCSA Nightingale system when the (currently official) wiki documentation gets migrated.  Until then, this page is just a test page for the new documentation system.  The transition date when this becomes official is sometime in the future, but we hope it happens in August 2022.  This message will be changed to reflect the transition date as soon as it has been agreed upon and set.  (Status as of August 11, 2022)
+    This page is soon to be the Nightingale official documentation page, but right now the documentation is undergoing its final revisions before deployemnt.  Users, please refer to the `wiki documentation <https://wiki.ncsa.illinois.edu/display/USSPPRT/Nightingale+Cluster+User+Guide>` until we officially transfer the documentation (at which point this notice will disappear).  We anticipate the documentation transition will happen August 19 or 20, 2022.  
 
 .. warning::
 
