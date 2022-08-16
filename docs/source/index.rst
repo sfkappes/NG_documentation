@@ -24,7 +24,7 @@ Contents
 
    setting_up_account
    architecture
-   accessing_the_system
+   accessing_system_account_admin
    citizenship
    files_and_data
    building_software
