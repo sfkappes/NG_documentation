@@ -89,12 +89,11 @@ need to set the HTTPS_PROXY environment variable. **You will need to set
 the "HTTPS_PROXY" environment variable every time you log in to the
 cluster using the following command:**
 
-+----------------------------------------------------------------------+
-| ``export``\                                                          |
-| ``HTTPS_PROXY=http:``\ ``//ache-proxy``\ ``.ncsa.illinois.edu:3128`` |
-+----------------------------------------------------------------------+
+: 
 
-| 
+  export HTTPS_PROXY=http://ache-proxy.ncsa.illinois.edu:3128
+
+
 
 To verify that this environment variable is set use the "echo" command
 to output the value of the environment variable.
