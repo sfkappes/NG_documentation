@@ -32,8 +32,8 @@ Contents
    launching_applications
    running_jobs
    sample_job_scripts
-   job_management
    visualization
+   containers
    protected_data
    help
    references
