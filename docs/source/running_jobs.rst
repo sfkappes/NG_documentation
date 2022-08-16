@@ -88,11 +88,8 @@ there are lots of jobs, you can run
 
 ::
 
-   squeue --user=${USER}]]>
-   This command lists the jobs that are currently running on the system.  If there are lots of jobs, you can run 
-
    squeue --user=${USER}
-
+   
 to only see **your** jobs.
 
 scancel <jobid>
@@ -109,9 +106,6 @@ node **now** , and to log you onto it. To launch an interactive job, run
 the following command:
 
 ::
-
-   srun -A usrsvc --pty bash ]]>
-   Unlike batch jobs above, you can also ask the scheduler for a compute node now , and to log you onto it.  To launch an interactive job, run the following command: 
 
    srun -A usrsvc --pty bash 
 
