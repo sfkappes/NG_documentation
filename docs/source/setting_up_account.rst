@@ -1,3 +1,7 @@
+==============================================
+Setting Up Your Account
+==============================================
+
 The steps below explain how to request Nightingale access and start
 using the cluster.
 
