@@ -49,7 +49,7 @@ someone install Moba Xterm for you. They can follow these instructions.
 | Download Moba Xterm from this page:
   https://mobaxterm.mobatek.net/download-home-edition.html
 | The best version is the "previous stable version" that's
-  non-"portable" version.Click on that button to download the .zip file.
+  non-"portable" version.  Click on that button to download the .zip file.
   Once you have it, right click on the zip file, click on option
   "extract all", and choose a location. Then open up that folder, which
   will contain two files, one of which is a .msi file which is a Windows
@@ -121,9 +121,7 @@ you're typing, substitute the hostname of **your** nightingale node for
 ::
 
    ssh -J UUUUU@ngale-bastion-1.ncsa.illinois.edu UUUUU@XXXXX.internal.ncsa.edu
-   Open up the Moba Xterm application.  Click the button in the middle of the main window called "Start Local Terminal" to open up a new connection.  You will have a colorful window that has a prompt at the bottom that allows you to type commands.  The last part of the prompt will probably be something like "/home/mobaxterm".  To test that everything is working, please type the following, all on one line.  While you're typing, substitute the hostname of your  nightingale node for "XXXXX", and substitute your  NCSA identity username for "UUUUU".  
-
-   ssh -J UUUUU@ngale-bastion-1.ncsa.illinois.edu UUUUU@XXXXX.internal.ncsa.edu
+   
 
 so with the proper substitutions, if fictional user Hiro P. were using
 this method to log into (fictional) Nightingale node "beatlesGPU02",
@@ -132,9 +130,7 @@ they would type the following:
 ::
 
    ssh -J hirop@ngale-bastion-1.ncsa.illinois.edu hirop@beatlesGPU02.internal.ncsa.edu
-   so with the proper substitutions, if fictional user Hiro P. were using this method to log into (fictional) Nightingale node "beatlesGPU02", they would type the following:
-
-   ssh -J hirop@ngale-bastion-1.ncsa.illinois.edu hirop@beatlesGPU02.internal.ncsa.edu
+   
 
 The text will ask you for your password. Type in your NCSA kerberos
 password (YOU WILL NOT SEE THE CHARACTERS AS YOU TYPE. JUST TYPE IT
@@ -152,19 +148,14 @@ prompt:
 ::
 
    [UUUUU@XXXXX ~]$ 
-   Then you will be back at a prompt, but unlike before, the prompt will be to execute commands on a node of Nightingale (rather than your own computer).  If it worked, the prompt you see will look something like this, with the name of the node you logged into displayed as part of the prompt:
-
-   [UUUUU@XXXXX ~]$ 
-
+   
 So if fictional user "Hiro P." logs into the same (fictional) node as
 above, it would look like this:
 
 ::
 
    [hirop@beatlesGPU02 ~]$ 
-   So if fictional user "Hiro P." logs into the same (fictional) node as above, it would look like this:
-
-   [hirop@beatlesGPU02 ~]$ 
+   
 
 If you see this, that means you can successfully log into your node on
 Nightingale. However, now you need to test that you can bring an
