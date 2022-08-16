@@ -27,7 +27,7 @@ Contents
    accessing_system_account_admin
    citizenship
    files_and_data
-   building_software
+   adding_software
    software
    launching_applications
    running_jobs
