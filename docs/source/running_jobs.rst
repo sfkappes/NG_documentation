@@ -1,5 +1,5 @@
 ===================================
-Running Jobs
+Running and Managing Jobs
 ===================================
 
 Many researchers on Nightingale will have access to their own node or
