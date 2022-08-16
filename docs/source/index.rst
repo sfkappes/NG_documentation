@@ -1,6 +1,6 @@
 .. important::
 
-    This page is soon to be the Nightingale official documentation page, but right now the documentation is undergoing its final revisions before deployemnt.  Users, please refer to the `wiki documentation <https://wiki.ncsa.illinois.edu/display/USSPPRT/Nightingale+Cluster+User+Guide>` until we officially transfer the documentation (at which point this notice will disappear).  We anticipate the documentation transition will happen August 19 or 20, 2022.  
+    This page is soon to be the Nightingale official documentation page, but right now the documentation is undergoing its final revisions before deployemnt.  Users, please refer to the `wiki documentation <https://wiki.ncsa.illinois.edu/display/USSPPRT/Nightingale+Cluster+User+Guide>`_ until we officially transfer the documentation (at which point this notice will disappear).  We anticipate the documentation transition will happen August 19 or 20, 2022.  
 
 .. warning::
 
