@@ -51,7 +51,7 @@ using the cluster.
             -  `KnowBe4 Dashboard: How to download the training
                certificate <https://wiki.ncsa.illinois.edu/download/attachments/163254913/HIPAA%20training%20-%20KnowBe4.docx?version=2&modificationDate=1635540382000&api=v2>`__
 
-         #. It is expected that the platform will change in the future.
+         #. The training platform may change from year to year.  
 
       #. Full disk encryption
 
