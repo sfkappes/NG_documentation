@@ -2,9 +2,9 @@
 
     This page is soon to be the Nightingale official documentation page, but right now the documentation is undergoing its final revisions before deployemnt.  Users, please refer to the `wiki documentation <https://wiki.ncsa.illinois.edu/display/USSPPRT/Nightingale+Cluster+User+Guide>`_ until we officially transfer the documentation (at which point this notice will disappear).  We anticipate the documentation transition will happen August 19 or 20, 2022.  
 
-.. warning::
+.. note::
 
-   There will be a preventative maintenance period all day on August 17 on Nightingale.  All systems will be effected and users will not be able to log in.  The system should be restored to functionality by the evening.  If the system will not be up then, this note will be revised.
+   Status notices go here.  There are no upcoming maintenance windows in the immediate future.  
 
 NCSA Nightingale Documentation
 =========================================================
