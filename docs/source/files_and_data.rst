@@ -1,9 +1,5 @@
-.. warning::
-
-   This page is currently (June 22, 2022) a test page.  It may be come the real user-facing documentation for Nightingale, if that happens, this notice will be removed.
-
 =============================
-Files and Data on Nightingale
+Files and Data 
 =============================
 
 **Data on Nightingale is LEGALLY PROTECTED.  Do NOT download ANY data without explicit permission.**

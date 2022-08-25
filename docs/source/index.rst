@@ -1,10 +1,10 @@
 .. important::
 
-    This page will become the official user-facing documentation for the NCSA Nightingale system when the (currently official) wiki documentation gets migrated.  Until then, this page is just a test page for the new documentation system.  The transition date when this becomes official is sometime in the future, but we hope it happens in August 2022.  This message will be changed to reflect the transition date as soon as it has been agreed upon and set.  (Status as of August 11, 2022)
+    This page is soon to be the Nightingale official documentation page, but right now the documentation is undergoing its final revisions before deployemnt.  Users, please refer to the `wiki documentation <https://wiki.ncsa.illinois.edu/display/USSPPRT/Nightingale+Cluster+User+Guide>`_ until we officially transfer the documentation (at which point this notice will disappear).  This documentation will hopefully transition to official in late August, 2022.  
 
-.. warning::
+.. note::
 
-   There will be a preventative maintenance period all day on August 17 on Nightingale.  All systems will be effected and users will not be able to log in.  The system should be restored to functionality by the evening.  If the system will not be up then, this note will be revised.
+   Status notices go here.  There are no upcoming maintenance windows in the immediate future.  
 
 NCSA Nightingale Documentation
 =========================================================
@@ -22,18 +22,19 @@ Contents
 
 .. toctree::
 
-   accounts
+   setting_up_account
    architecture
-   accessing_the_system
+   accessing_system_account_admin
+   accessing_system_from_windows
    citizenship
    files_and_data
-   building_software
+   adding_software
    software
    launching_applications
    running_jobs
    sample_job_scripts
-   job_management
    visualization
+   containers
    protected_data
    help
    references
