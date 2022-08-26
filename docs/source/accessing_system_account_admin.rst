@@ -7,28 +7,21 @@ into and use the Nightingale cluster computer at NCSA. This page will
 contain general setup instructions for logging into your interactive
 node on the Nightingale cluster.
 
-**If you don't understand how to log into Nightingale, and the "ssh"
-section below doesn't help you enough, here is a page to walk users who
-mostly use Windows to set up your computer to log in.**
+**If you are new to Linux OS, here is a page to walk Windows users to set up your computer to log in.**
 
-If you cannot find the information in this user guide to do your work on
-Nightingale or if you need further help please contact your user support
-contact. To do that, send an email to "help@ncsa.illinois.edu". Be sure
-to put "Nightingale" in the subject line and a few words about what the
-problem is. Then put as much information as you can into the body of the
-email.
+If you can't find information to help you in this user guide (try searching in the top left search box) please don't hesitate to `submit a help ticket <./help.html>`_ to ask your question.  
 
 **Introduction to Nightingale**
 -------------------------------
 
-Nightingale is a cluster computer. That is, it is several separate
-computers (called "node"s) connected together by network that share some
+Nightingale is a cluster computer running a Linux OS. That is, it is several separate
+computers (called "nodes") connected together by network that share some
 pieces. Mostly when you log into Nightingale, you will log into a
 particular "interactive" node that will have software, hardware, and
 data that is specific for the work that you and your group do. To
 configure your logins, you will need to know the **name** of the
 interactive node assigned to you. That name will be a fully-qualified
-hostname, something like "ng-notarealnode01.ngale.internal.ncsa.edu".
+hostname, something like "ng-groupname01.ngale.internal.ncsa.edu".
 
 Logging onto Nightingale
 ~~~~~~~~~~~~~~~~~~~~~~~~
