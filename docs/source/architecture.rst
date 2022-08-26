@@ -4,12 +4,12 @@ System Architecture
 
 **Introduction**
 
-The NCSA Nightingale cluster is a HIPAA-compliant HPC environment
+The NCSA Nightingale cluster is a HIPAA-capable RedHat Linux OS High-Performance Computing (HPC) environment
 created to support UIUC researchers and collaborators who engage in
-analysis of sensitive data, like electronic Protected Health Information
-(ePHI). The cluster resides within a secure environment and follows
-HIPAA standards and University of Illinois policies and procedures to
-ensure conformance and protection of ePHI.
+analysis of regulated sensitive data, like electronic Protected Health Information
+(ePHI) or CUI. The cluster resides within a secure environment and follows
+NCSA and University of Illinois security policies and procedures to
+ensure conformance and protection of ePHI, CUI, and other such data types.
 
 | 
 
@@ -43,8 +43,8 @@ chat with Nightingale support staff.
 **Technical Specification**
 
 Nightingale provides standard batch computing options and interactive
-compute nodes. A majority of the system consists of GPUs primed for
-either double precision work (A100) or single precision work (A40).
+compute nodes. The compute nodes are a mix of CPU nodes and nodes with 
+GPUs set up for double precision work (A100) or single precision work (A40).
 These are made available to users as dedicated servers or shared
 environments based on the needs of each research project. Nightingale
 offers database services to support long-term data storage and
