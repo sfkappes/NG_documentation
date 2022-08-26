@@ -14,17 +14,15 @@ using the cluster.
       automatically enroll you into NCSA's Duo multi-factor
       authentication (https://go.ncsa.illinois.edu/2fa) which is
       required to log into Nightingale.
-   -  You can skip this step if you already have an NCSA identity. If
-      you don’t remember your password, you can reset it by using this
-      link:https://identity.ncsa.illinois.edu/.
    -  **VERY IMPORTANT:** You should always have **TWO backup Duo
       tokens** (these are 8-digit numbers that you write down manually
       and store somewhere OTHER THAN ON YOUR PHONE). You can use these
-      codes to verify your identity in case you upgrade your phone
-      without the ability to get a duo code from your old phone, or
-      perhaps lose your phone. If you don't have two codes written down
-      somewhere you can get at them, please use the Duo system to
-      generate them.
+      codes to verify your identity in case you replace or lose your phone. 
+      If you don't have two codes, see step #5 of "Enrollment Steps" on the 
+      `Duo at NCSA wiki page <https://wiki.ncsa.illinois.edu/display/cybersec/Duo+at+NCSA>`_.  
+   -  You can skip this step if you already have an NCSA identity. If
+      you don’t remember your password, you can reset it by using this
+      link:https://identity.ncsa.illinois.edu/.
 
 #. Requesting Nightingale Access
 
