@@ -25,14 +25,12 @@ using the cluster.
       link:https://identity.ncsa.illinois.edu/.
 
 ..
-
    In the future, this next step ("requesting nightingale access") will need to refer to XRAS.  Something like: 
    If you are a project PI, you can submit an allocation request by using the Resource Allocation System (XRAS). https://xras-submit.ncsa.illinois.edu/login
 
 #. Requesting Nightingale Access
 
-   -  To request Nightingale access, send an email to Maria Jaromin
-      at\ mjaromin@illinois.edu. The request should include your NCSA
+   -  To request Nightingale access, send an email to `the Nightingale team <mailto:mjaromin@illinois.edu>`_. The request should include your NCSA
       username, your University UIN, and a brief justification why you
       need the access.
    -  If you completed some type of Regulated Sensitive Data training less than a year ago (HIPPA or otherwise), please attach your
