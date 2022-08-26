@@ -71,9 +71,9 @@ Interactive Compute Nodes
 
 **Nightingale Nodes**
 
-Some users will have an assigned "interactive" node. If your project has
+Some allocations will have an assigned "interactive" node. If your allocation has
 one of these, you will be told about this. The hostname will be
-something like ng-rollingstones01.ngale.internal.ncsa.edu.
+something like ng-yourgroup01.ngale.internal.ncsa.edu.
 
 If your group doesn't have an assigned node, then you will log into one
 of the general login nodes:
@@ -83,4 +83,4 @@ of the general login nodes:
 
 If you need to run batch jobs on Nightingale compute nodes (see the
 batch job documentation page for details) then you'll likely set up and
-queue the jobs from the general login nodes.
+queue the jobs from the general login nodes.  **Note** like interactive node access, batch computing is a capability that must be separately configured and added to your allocation.  The "accounts" command on the system will tell you if you have an allocation that allows you to do batch computing.  
