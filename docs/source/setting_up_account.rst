@@ -24,6 +24,11 @@ using the cluster.
       you don’t remember your password, you can reset it by using this
       link:https://identity.ncsa.illinois.edu/.
 
+..
+
+   In the future, this next step ("requesting nightingale access") will need to refer to XRAS.  Something like: 
+   If you are a project PI, you can submit an allocation request by using the Resource Allocation System (XRAS). https://xras-submit.ncsa.illinois.edu/login
+
 #. Requesting Nightingale Access
 
    -  To request Nightingale access, send an email to Maria Jaromin
