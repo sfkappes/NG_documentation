@@ -56,3 +56,5 @@ using the cluster.
 ..
    #. If you plan to use an on-site work desktop, you can request
             an exemption from the encryption requirement.
+            
+         #. The NCSA will also require (and check) certain system settings on your computer, such as setting the screen timeout to be five minutes or less.  
