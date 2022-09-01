@@ -15,13 +15,11 @@ If you can't find information to help you in this user guide (try searching in t
 -------------------------------
 
 Nightingale is a cluster computer running a Linux OS. That is, it is several separate
-computers (called "nodes") connected together by network that share some
-pieces. Mostly when you log into Nightingale, you will log into a
-particular "interactive" node that will have software, hardware, and
-data that is specific for the work that you and your group do. To
-configure your logins, you will need to know the **name** of the
-interactive node assigned to you. That name will be a fully-qualified
-hostname, something like "ng-groupname01.ngale.internal.ncsa.edu".
+computers (called "node"s) connected together by network that share user account information
+and file systems. 
+When you log into Nightingale, you will typically log into a
+particular node that depends on the type of allocation your 
+group has.  Please see the "Nightingale Nodes" section above for specifics.  
 
 Logging onto Nightingale
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,30 +39,29 @@ them, their specific interactive specialized nodes.
 
 | 
 
-+----------+-------------------------+---------------------------------+
-| Access   | Secure Node             | General Access Head Nodes       |
-| Method   |                         |                                 |
-+----------+-------------------------+---------------------------------+
-| SSH      | ngale-bast              | ng-                             |
-|          | ion-1.ncsa.illinois.edu | login01.ngale.internal.ncsa.edu |
-|          |                         | ng-                             |
-|          |                         | login02.ngale.internal.ncsa.edu |
-+----------+-------------------------+---------------------------------+
++----------+-----------------------------------+---------------------------------------+
+| Access   | Secure Node                       | General Access Head Nodes             |
+| Method   |                                   |                                       |
++----------+-----------------------------------+---------------------------------------+
+| SSH      | ngale-bastion-1.ncsa.illinois.edu | ng-login01.ngale.internal.ncsa.edu    |
++----------+-----------------------------------+---------------------------------------+
+|          |                                   | ng-login02.ngale.internal.ncsa.edu    |
++----------+-----------------------------------+---------------------------------------+
 
-**Note:** All Nightingale users have access to the general access head
+**Note:** All Nightingale users have access to the general access login
 nodes. Please be aware that the general access head nodes are a shared
 resource for all users of the system and their use should be limited to
 editing, compiling and building your programs.
 
 | 
 
-+----------+-------------------------+---------------------------------+
-| Access   | Secure Node             | Group Specific Interactive      |
-| Method   |                         | Node(s)                         |
-+----------+-------------------------+---------------------------------+
-| SSH      | ngale-bast              | ng-group_specific_no            |
-|          | ion-1.ncsa.illinois.edu | de_name.ngale.internal.ncsa.edu |
-+----------+-------------------------+---------------------------------+
++----------+-----------------------------------+--------------------------------------------+
+| Access   | Secure Node                       | General Access Login Nodes                 |
+| Method   |                                   |                                            |
++----------+-----------------------------------+--------------------------------------------+
+| SSH      | ngale-bastion-1.ncsa.illinois.edu | ng-group_node.ngale.internal.ncsa.edu      |
++----------+-----------------------------------+--------------------------------------------+
+
 
 **Note:** Certain Nightingale groups have exclusive access to their
 interactive specialized nodes.
