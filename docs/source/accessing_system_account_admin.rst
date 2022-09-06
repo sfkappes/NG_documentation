@@ -25,11 +25,9 @@ Logging onto Nightingale
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 To work on Nightingale, you will "log in" to it. Logging in establishes
-a connection between your computer and a node of nightingale, so that
+a connection between your computer and a node of Nightingale, so that
 you can use software on Nightingale to manipulate and analyze data on
-Nightingale, but you're controlling that software using your mouse and
-keyboard, and the display window for that software shows up on **your**
-computer. To log into Nightingale, user will need at least a ssh client
+Nightingale. To log into Nightingale, user will need at least a ssh client
 available on their local desktop or laptop to make the connection. All
 Nightengale users must use a ssh based connection to go through the
 secure node (`bastion
@@ -176,10 +174,7 @@ prepended to your current user environment paths.
 
 | 
 
-If you have questions: SUBMIT A TICKET!
+If you have questions: `SUBMIT A TICKET <./help.html>`_!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-As we deploy the Nightingale system, we are doing our best to make it
-user-friendly and available to users.
 
 | 
