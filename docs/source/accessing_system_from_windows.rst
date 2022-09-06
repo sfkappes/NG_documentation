@@ -12,20 +12,19 @@ setting up your own computer so that you can log into Nightingale and do
 your work. These instructions are admittedly complicated but you only
 have to do this once. Before starting these instructions, you should
 already have an NCSA identity (username), know your NCSA kerberos
-password, and have Duo hooked up and working. If you know know what this
-means, you need to go get your NCSA identity set up. Please go back to
+password, and have Duo hooked up and working with an NCSA ID.  Please go back to
 the parent page of this page and go through the "NCSA Identity" process,
 then come back here once you have that.
 
 Brief overview of Nightingale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you don't know what a "cluster" computer is, it's many computers
+A "cluster" computer is many computers
 connected together in a network such that they work together in some
 cases but work separately in others. Nightingale is the name of the
 cluster as a whole, the individual computers within it are called
 "nodes" (from the mathematical term). Typical Nightingale users (you)
-will log into (connect to) to a specific node of nightingale where your
+will log into (connect to) to a specific node of Nightingale where your
 data and software are set up for you to use to do your work. You will
 need one extra piece of software on your Windows computer, called "Moba
 Xterm" to do this. (There are other pieces of software that can
@@ -33,6 +32,7 @@ accomplish this, but this is the simplest way we could find to get
 Windows users set up the way they need to be.)
 
 Install the Moba Xterm application
+-------------------------------------
 
 The Moba Xterm application runs on your computer and connects it to a
 Nightingale node, and allows you to run software as if your screen,
