@@ -2,7 +2,8 @@
 System Architecture
 =====================
 
-**Introduction**
+Introduction
+-------------
 
 The NCSA Nightingale cluster is a HIPAA-capable RedHat Linux OS High-Performance Computing (HPC) environment
 created to support UIUC researchers and collaborators who engage in
@@ -11,9 +12,8 @@ analysis of regulated sensitive data, like electronic Protected Health Informati
 NCSA and University of Illinois security policies and procedures to
 ensure conformance and protection of ePHI, CUI, and other such data types.
 
-| 
-
-**ACHE Environment**
+ACHE Environment
+------------------
 
 The Nightingale cluster provides a high-performance environment within
 the\ `Advanced Computational Health Enclave
@@ -38,9 +38,8 @@ Please see the User Software documentation page for details. If you have
 further questions that page doesn't answer, please submit a ticket and
 chat with Nightingale support staff.
 
-| 
-
-**Technical Specification**
+Technical Specification
+----------------------------
 
 Nightingale provides standard batch computing options and interactive
 compute nodes. The compute nodes are a mix of CPU nodes and nodes with 
@@ -54,11 +53,13 @@ system adequately supports the researchers’ needs for sharing data as
 well as generating and storing results.
 
 Batch Computing
+~~~~~~~~~~~~~~~~~
 
 -  16 dual 64-core AMD systems with 1 TB of RAM
 -  2 dual-A100 compute nodes with 32-core AMDs and 512 GB of RAM
 
 Interactive Compute Nodes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  4 interactive compute/login nodes with dual 64-core AMDs and 512 GB
    of RAM
@@ -67,9 +68,8 @@ Interactive Compute Nodes
 
 -  5 interactive nodes with 1 A40 with dual 32-core AMDs and 512GB RAM
 
-| 
-
-**Nightingale Nodes**
+Nightingale Nodes
+~~~~~~~~~~~~~~~~~~~
 
 Some allocations will have an assigned "interactive" node. If your allocation has
 one of these, you will be told about this. The hostname will be
@@ -83,4 +83,4 @@ of the general login nodes:
 
 If you need to run batch jobs on Nightingale compute nodes (see the
 batch job documentation page for details) then you'll likely set up and
-queue the jobs from the general login nodes.  **Note** like interactive node access, batch computing is a capability that must be separately configured and added to your allocation.  The "accounts" command on the system will tell you if you have an allocation that allows you to do batch computing.  
+queue the jobs from the general login nodes.  **Note** like interactive node access, batch computing is a capability that must be separately configured and added to your allocation.  The "accounts" command on the system will tell you if you have an allocation that allows you to do batch computing.  If running "accounts" while logged into the system produces no output, then your account is not enabled for batch computing.
