@@ -45,8 +45,8 @@ Requesting Nightingale Access
 Regulated Sensitive Data training
 ----------------------------------
 
-         #. After being added to the system, but before you can use it, you will need to complete training that corresponds to the *type* of regulated sensitive data you will be accessing.  You will be emailed instructions how to take this training.  You will generally need to save a completion certificate at the end of the training course.  
-         #. After completing the training, you need to upload the
+         -  After being added to the system, but before you can use it, you will need to complete training that corresponds to the *type* of regulated sensitive data you will be accessing.  You will be emailed instructions how to take this training.  You will generally need to save a completion certificate at the end of the training course.  
+         -  After completing the training, you need to upload the
             training certificate to `HIPAA
             Tools <https://internal.ncsa.illinois.edu/mis/hipaa/training/index.php?page=main&>`__\ in
             Savannah, the internal NCSA web portal.
@@ -54,9 +54,9 @@ Regulated Sensitive Data training
 Full disk encryption
 ----------------------
 
-         #. You will be contacted by NCSA personnel to get your computer set up with full-disk encryption.  That person will guide you through the steps to secure your hard drive.  
-         #. The NCSA will also require (and check) certain system settings on your computer, such as setting the screen timeout to be five minutes or less.  
-         #. If you plan to use an on-site work desktop, you can request
+         -  You will be contacted by NCSA personnel to get your computer set up with full-disk encryption.  That person will guide you through the steps to secure your hard drive.  
+         -  The NCSA will also require (and check) certain system settings on your computer, such as setting the screen timeout to be five minutes or less.  
+         -  If you plan to use an on-site work desktop, you can request
             an exemption from the encryption requirement.
             
         
