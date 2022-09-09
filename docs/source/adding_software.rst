@@ -250,6 +250,7 @@ To enable (make use of) R on Nightingale, just load the modulefile.
 To start R, simply type R in the terminal.
 
 ::
+
     R
 
 The program will open *within* the terminal window. Type 'demo()' for
@@ -327,7 +328,7 @@ example above. Users, should use the specific R package
 (https://cran.r-project.org/web/packages/available_packages_by_name.html)
 that they are interested in.
 
-(If the environment variable\ **R_LIBS**\ is not set and a directory is
+(If the environment variable **R_LIBS** is not set and a directory is
   not specified with the "install.packages" function, then R packages
   will be installed under "${HOME}/R/x86_64-unknown-linux-gnu-library"
   by default.  This R subdirectory structure is created automatically.)
