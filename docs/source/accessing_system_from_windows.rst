@@ -1,9 +1,8 @@
-====================================================
 Accessing the System for Windows Users (Moba Xterm)
 ====================================================
 
 Introduction for Windows Nightingale users:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 Nightingale is a Linux-based cluster computer. That means users used to
 only using Windows computers, there will be a lot of things to learn.
@@ -17,7 +16,7 @@ the parent page of this page and go through the "NCSA Identity" process,
 then come back here once you have that.
 
 Brief overview of Nightingale
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 A "cluster" computer is many computers
 connected together in a network such that they work together in some
@@ -68,7 +67,7 @@ on. The whole point of Moba Xterm is that it connects to another
 computer over the network. That's how it works. Nothing fishy here.)
 
 If necessary install and launch a VPN
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 For security reasons, Nightingale only accepts connections from
 computers on the UIUC campus. If you're going to connect to Nightingale
@@ -84,7 +83,7 @@ If you need to set up a VPN and there's no link here, please contact
 Nightingale user support.
 
 Know which nightingale node you want
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 As mentioned above, nightingale is made up of many different nodes.
 Several of those are "interactive" nodes, which are set up for
@@ -166,15 +165,13 @@ so, a square window with a running analog clock should show up on your
 desktop. (Check your window bar if you don't see it; sometimes it hides
 behind other windows.)
 
-| 
-
 If that worked, you're all set. You just need to type that ssh line from
 above to log into Nightingale to work. To make logging in simpler, and
 enable moving files to Nightingale, configure Moba Xterm per the
 following section.
 
 Configuring Moba Xterm
-~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 Once you know that logging in works, you should configure Moba Xterm as
 follows.
@@ -209,7 +206,7 @@ Then click "Ok". Back in the Session settings, now click "OK" at the
 bottom. This should open a new tab in your overall Moba Xterm window
 that will log into your interactive node on Nightingale.
 
-**Moving files to Nightingale using Moba Xterm**
+Moving files to Nightingale using Moba Xterm
 ------------------------------------------------
 
 You may have files on your local system that you want to transfer to
@@ -261,7 +258,7 @@ save it using software on Nightingale.
 
 | 
 
-**Moving files from Nightingale to your local machine (downloading them; see warnings about this)**
+Moving files from Nightingale to your local machine (downloading them; see warnings about this)
 ---------------------------------------------------------------------------------------------------
 
 If you a file on Nightingale that you want to look at locally on your
