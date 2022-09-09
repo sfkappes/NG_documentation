@@ -25,8 +25,7 @@ Contents
 
    setting_up_account
    architecture
-   accessing_system_account_admin
-   accessing_system_from_windows
+   accessing_the_system/index.rst
    citizenship
    files_and_data
    adding_software
@@ -42,3 +41,5 @@ Contents
 ..  
    (commented out references; not used at the moment)
    references
+   accessing_system_account_admin
+   accessing_system_from_windows
