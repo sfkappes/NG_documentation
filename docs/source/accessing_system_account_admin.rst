@@ -1,4 +1,3 @@
-============================================================
 Accessing the System and Account Administration
 ============================================================
 
@@ -11,7 +10,7 @@ node on the Nightingale cluster.
 
 If you can't find information to help you in this user guide (try searching in the top left search box) please don't hesitate to `submit a help ticket <./help.html>`_ to ask your question.  
 
-**Introduction to Nightingale**
+Introduction to Nightingale
 -------------------------------
 
 Nightingale is a cluster computer running a Linux OS. That is, it is several separate
@@ -64,41 +63,31 @@ editing, compiling and building your programs.
 **Note:** Certain Nightingale groups have exclusive access to their
 interactive specialized nodes.
 
-| 
-
-| 
-
 Mac OS users
-^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 You will log into Nightingale using the "ssh" command in your Terminal
 program. It's already installed and ready. You will also need an
 application that serves as an "X-windows server". For Mac OS users, we
 recommend XQuartz.
 
-| 
-
 Unix/Linux OS users
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 Will also log into Nightingale using the "ssh" client that is run from
 the command line in the terminal. Generally, the "ssh" client along with
 an "X-Windows" server should be available by default on recent versions
 of Unix/Linux OSes.
 
-| 
-
 Windows users
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 We recommend Nightingale users first install a program called MobaXterm
 on their computers and then use that to log into Nightingale. This
-install process is detailed on this separate wiki page.
-
-| 
+install process is detailed on this separate page.
 
 User environment configuration via "module" commands
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------
 
 Nightingale uses a set of commands called "lmod" (short for "Lua
 Modules") that allows users to turn access to certain software on or off
@@ -106,8 +95,6 @@ by "loading" or "unloading" a modulefile (which is just a file that adds
 or removes the software's configuration to your user environment). Here
 are the most common module commands you will use as a user of
 Nightingale.
-
-| 
 
 +--------------------+-------------------------------------------------+
 | Command            | Description                                     |
@@ -163,18 +150,12 @@ Nightingale.
 
 | 
 
-Note1: Modules are independent of the user’s shell, so any shell (bash,
+**Note1:** Modules are independent of the user’s shell, so any shell (bash,
 tcsh, ksh, etc ...) can use the same commands to modify their current
 user environment.
 
-Note2: Order is important. With each module load, the changes are
+**Note2:** Order is important. With each module load, the changes are
 prepended to your current user environment paths.
 
-| 
-
-| 
-
 If you have questions: `SUBMIT A TICKET <./help.html>`_!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-| 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
