@@ -239,7 +239,7 @@ R is a\ `programming
 language <https://en.wikipedia.org/wiki/Programming_language>`__\ for\ `statistical
 computing <https://en.wikipedia.org/wiki/Statistical_computing>`__\ and
 graphics supported by the R Core Team and the R Foundation for
-Statistical Computing.R version 4.2.0 is currently installed on
+Statistical Computing.  R version 4.2.0 is currently installed on
 Nightingale.
 
 To enable (make use of) R on Nightingale, just load the modulefile.
@@ -275,7 +275,7 @@ the script and then upload the file to the cluster.
 Viewing Installed R Packages
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-Thelibrary()command can be used to view all user and system installed R
+The library() command can be used to view all user and system installed R
 packages (user installed packages are only visible to R when
 the${R_LIBS}environment variable is set).
 
