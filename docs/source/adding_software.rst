@@ -235,8 +235,8 @@ View what python packages are installed:
 R
 ^^^
 
-`R is a programming language for statistical computing <https://www.r-project.org/>`_
- and graphics supported by the R Core Team and the R Foundation for
+`R is a programming language for statistical computing <https://www.r-project.org/>`_ 
+and graphics supported by the R Core Team and the R Foundation for
 Statistical Computing.  R version 4.2.0 is currently installed on
 Nightingale.
 
