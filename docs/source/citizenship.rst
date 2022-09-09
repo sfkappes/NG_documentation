@@ -1,4 +1,4 @@
-============================================
+
 Good User Best Practices (Good Citizenship)
 ============================================
 
@@ -8,7 +8,7 @@ carefully and try not to do things that impact other users. Mostly there
 are automatic protections (quotas and so on) but sometimes there aren't.
 
 Dedicated Interactive Nodes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 If you have a dedicated interactive node (if the name of the node you
 log into on Nightingale doesn't have "login" in its name) then that node
@@ -20,7 +20,7 @@ someone else in your group wants to run something but can't, you'll need
 to work out within your group who gets to run.
 
 Computational Nodes
-~~~~~~~~~~~~~~~~~~~
+------------------------
 
 If you run jobs on Nightingale's compute nodes, the job system is
 responsible for making sure you have the resources that you need. If
@@ -34,7 +34,7 @@ wisely. If someone in your group uses up a ton of allocation, that's the
 responsibility of the PI who's in charge of the allocation.
 
 Login Nodes
-~~~~~~~~~~~
+--------------
 
 Nightingale has login nodes that are used for compiling codes and
 controlling computational job resources. Login nodes are **shared**
