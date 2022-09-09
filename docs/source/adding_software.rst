@@ -329,6 +329,6 @@ example above. Users, should use the specific R package
 that they are interested in.
 
 (If the environment variable **R_LIBS** is not set and a directory is
-  not specified with the "install.packages" function, then R packages
-  will be installed under "${HOME}/R/x86_64-unknown-linux-gnu-library"
-  by default.  This R subdirectory structure is created automatically.)
+not specified with the "install.packages" function, then R packages
+will be installed under "${HOME}/R/x86_64-unknown-linux-gnu-library"
+by default.  This R subdirectory structure is created automatically.)
