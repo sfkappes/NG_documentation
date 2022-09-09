@@ -338,6 +338,8 @@ follows.
 Click on the "Session" button near the upper left of the Moba Xterm
 window.
 
+..  image:: ./ng_mxt_session_button.gif
+
 This brings up a "Session settings" window. Click "SSH" in the very
 upper left corner of that window.
 
