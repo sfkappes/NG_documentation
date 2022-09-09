@@ -40,6 +40,5 @@ Contents
    help
 
 ..  
-
    (commented out references; not used at the moment)
    references
