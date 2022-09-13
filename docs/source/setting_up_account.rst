@@ -1,8 +1,14 @@
 Setting Up Your Account
 ==============================================
 
-The steps below explain how to request Nightingale access and start
-using the cluster.
+The first step in setting up your Nightingale account is create an NCSA identity (user account) and have it added to the group of identities allowed to use Nightingale. 
+
+NEED TO TALK TO SOMEONE ABOUT THIS. THE INSTRUCTIONS BELOW ARE NOT CLEAR. HERE'S MY TAKE:
+- Get a NCSA identity (user account) and request that it be added to the nightingale identity group (https://go.ncsa.illinois.edu/ngale_identity)
+- Request Nightingale access from the Nightingale team
+- Complete HIPAA training
+- Encrypt the compute system you will use to access Nightingale
+
 
 Creating NCSA Identity
 -------------------------
