@@ -32,6 +32,7 @@ Contents
    software
    launching_applications
    running_jobs
+   batch_system
    sample_job_scripts
    visualization
    containers
